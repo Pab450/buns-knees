@@ -1,0 +1,18 @@
+{
+  "name": "codespaces-blank",
+  "module": "./src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "gts": "^6.0.2",
+    "typescript": "^5.7.2",
+    "@types/node": "^22.7.5"
+  },
+  "scripts": {
+    "lint": "gts lint",
+    "lint:fix": "gts fix",
+    "dev": "bun --watch run .",
+    "start": "bun run .",
+    "test": "bun test"
+  }
+}
